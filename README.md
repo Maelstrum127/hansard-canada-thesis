@@ -1,5 +1,9 @@
 # University of Toronto Engineering Science Thesis: Analyzing Political Polarization in Canada’s Parliament
-This thesis project analyzes the transcript and voting data contained in the Hansard datasets to measure political polarization in Canada.
+This repo contains the data and reports of Connor Glossop's 4th year thesis project. This project analyzes the transcript and voting data contained in the Hansard datasets to measure political polarization in Canada.
+
+# Repo Structure:
+TO BE WRITTEN
+
 
 # Background:
 Political polarization has been shown to reduce the effectiveness of governments and increase the occurrences of bad policies [1]. Research has therefore been conducted to try to measure political polarization in various countries, often leveraging the transcripts from government proceedings and outcomes of votes. The Canadian Hansard dataset [2] contains the transcripts of all debates in the Canadian Parliament (both the House of Commons and the Senate). The full transcripts of each Member of Parliament and Senators' speeches, questions and responses are recorded every day that the parliament is in session, and has been collected from January 1994 to present. The Hansard Index, a list of each individual MP/Senator’s speeches for a given session, was also maintained between January 1994 and November 2005. The results of parliamentary votes are recorded both within the Hansard document for a given day and a separate Votes database [3]. This database contains records of all votes from October 2004 onwards.
