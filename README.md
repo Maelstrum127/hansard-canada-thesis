@@ -1,4 +1,4 @@
-# hansard-canada-thesis
+# University of Toronto Engineering Science Thesis: Analyzing Political Polarization in Canada’s Parliament
 This thesis project analyzes the transcript and voting data contained in the Hansard datasets to measure political polarization in Canada.
 
 # Background:
