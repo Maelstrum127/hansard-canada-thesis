@@ -1,17 +1,17 @@
-# University of Toronto Engineering Science Thesis: Analyzing Political Polarization in Canada’s Parliament
-This repo contains the data and reports of Connor Glossop's 4th year thesis project. This project analyzes the transcript and voting data contained in the Hansard datasets to measure political polarization in Canada.
+# University of Toronto Engineering Science Thesis: Measuring Political Polarization in Canada's Parliament
+This repo contains the data, scripts and reports of Connor Glossop's 4th year thesis project. This thesis analyzes the transcript data contained in the LiPaD dataset to measure political polarization in Canada.
 
 # Repo Structure:
 TO BE WRITTEN
 
+# Abstract:
+This thesis analyzes recent trends in political polarization in Canada through the use of topic modelling algorithms. Due to recent trends of increasing political polarization in many parts of the world, especially the United States of America, analysis on the change in political polarization in Canada could help to identify possible causes and mitigate them before societal conflict occurs. Speeches taken from the Canada's House of Commons between 2004 and 2019 are processed and modelled using Latent Dirichlet Allocation and BERTopic, two popular topic modelling algorithms. The data is then aggregated, with topic frequency distributions measured for each political party. These are compared using Jensen-Shannon Divergence to establish a measure of political polarization between parties over time, as well as Generalized Jensen-Shannon Divergence to find an measure how political polarization in Canada has changed between 2004 and 2019. The level of political polarization in Canada's House of Commons increased between 2004 and 2019, with notable increases in polarization observed prior to each election.
 
 # Background:
-Political polarization has been shown to reduce the effectiveness of governments and increase the occurrences of bad policies [1]. Research has therefore been conducted to try to measure political polarization in various countries, often leveraging the transcripts from government proceedings and outcomes of votes. The Canadian Hansard dataset [2] contains the transcripts of all debates in the Canadian Parliament (both the House of Commons and the Senate). The full transcripts of each Member of Parliament and Senators' speeches, questions and responses are recorded every day that the parliament is in session, and has been collected from January 1994 to present. The Hansard Index, a list of each individual MP/Senator’s speeches for a given session, was also maintained between January 1994 and November 2005. The results of parliamentary votes are recorded both within the Hansard document for a given day and a separate Votes database [3]. This database contains records of all votes from October 2004 onwards.
+Political polarization has been shown to reduce the effectiveness of governments and increase the occurrences of bad policies [1]. To combat this, research has been conducted to try to measure political polarization in various countries, often leveraging the transcripts from government proceedings and outcomes of votes. The Canadian Hansard [2] contains the transcripts of all debates in the Canadian Parliament (both the House of Commons and the Senate). The full transcript of every speech, question and response by Members of Parliament and Senators are recorded every day that the parliament is in session. The results of parliamentary votes are recorded both within the Hansard document for a given day and a separate Votes database [3]. This database contains records of all votes from October 2004 onwards.
 
-In 2021, Alsinet et al. [4] developed metrics for evaluating the political polarization of Reddit users as a substitute for the general population. Hanretty et al. [5] used statistical regression techniques to analyze the left-right split of UK Members of Parliament based on their voting results, while Goet [6] analyzed the UK’s Hansard dataset to estimate dyadic representation in various historical periods. Research has been done into analyzing dyadic representation in Canada [7], however no analysis has been performed on the political polarization present within Canada’s Parliament and its change over time.
+In 2021, Alsinet et al. [4] developed metrics for evaluating the political polarization of Reddit users as a substitute for the general population. Hanretty et al. [5] used statistical regression techniques to analyze the left-right split of UK Members of Parliament based on their voting results, while Goet [6] analyzed the UK’s Hansard dataset to estimate dyadic representation in various historical periods. Research has been done into analyzing dyadic representation in Canada [7], however little analysis has been performed on the political polarization present within Canada’s parliament and its change over time.
 
-# Research Questions:
-This thesis project will analyze the transcript and voting data contained in the Hansard datasets to try to answer the following questions: Are Canadian politicians more polarized in the periods leading up to elections compared to immediately after elections? Furthermore, has Canada become more politically polarized over the period covered by the Hansard dataset?
 
 # References:
 
@@ -28,11 +28,3 @@ This thesis project will analyze the transcript and voting data contained in the
 [6] N. D. Goet, “Measuring Polarization with Text Analysis: Evidence from the UK House of Commons, 1811–2015,” Political Analysis, vol. 27, no. 4, pp. 518–539, 2019.
 
 [7] C. Moore, A. Rohan, “Dyadic Representation in Canadian Parliament,” April 2022
-
-[8] J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova, “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,” Oct. 11, 2018.
-
-[9] G. Abercrombie and R. Batista-Navarro, “Sentiment and position-taking analysis of parliamentary debates: a systematic literature review,” Journal of Computational Social Science, vol. 3, no. 1, pp. 245–270, Jan. 2020, doi: 10.1007/s42001-019-00060-w.
-
-[10] K. Arceneaux, M. Johnson, and C. Murphy, “Polarized Political Communication, Oppositional Media Hostility, and Selective Exposure,” The Journal of Politics, vol. 74, no. 1, pp. 174–186, Jan. 2012, doi: 10.1017/s002238161100123x.
-‌
-[11] S. Ansolabehere and P. E. Jones, Dyadic Representation. Oxford University Press, 2011. doi: 10.1093/oxfordhb/9780199559947.003.0013.
