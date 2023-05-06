@@ -1,3 +1,5 @@
 This thesis used the The Linked Parliamentary Data Project (LiPaD) dataset. The data is structured as follows: each year in the LiPaD data set has a corresponding folder (e.g, 2015), within which are folders for each month in which a speech occurred (e.g. 3, where 3 corresponds to the month of March).These subfolders contain one .csv file for each day on which speeches occurred, with all speeches on that day being contained within that .csv file as a separate row. Each .csv file is named in the "yyyy-mm-dd" format of the date for which the file corresponds (e.g. 2015-3-9.csv). The .csv files contain 15 fields for each speech, some or all of which may be populated for a given speech. In this thesis, only the years 2004 through 2019 were used in analysis.
 
 To download the dataset, download the file "lipadcsv-1.1.0.tar.bz2" from https://www.lipad.ca/data/
+
+In addition to the LiPaD dataset, mps-42.csv, a list of sitting Members of Parliament for the 42nd Canadian Parliament (2015-2019) was used in the 42nd_Parliament_Analysis.ipynb script. This file was downloaded from the House of Commons website at https://www.ourcommons.ca/Members/en/search?parliament=42
