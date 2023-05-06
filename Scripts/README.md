@@ -1,5 +1,5 @@
 All scripts created to perform analysis and generate figures for the thesis are placed here. Data preprocessing was performed in the Data_Preprocessing.ipynb notebook, with data taken imported directly from the LiPaD dataset. BERTopic_Modeling.ipynb and LDA_Topic_Modelling.ipynb represent the main topic modelling scripts used, with each script corresponding to a different topic modelling algorithm. Measuring_Polarization_JS_and_GJS_Divergence.ipynb uses the outputs of the two topic modelling scripts to generate figures based on the Jensen-Shannon Divergences and Generalized Jensen-Shannon Divergences measured in the two topic modelling scripts.
 
-42nd Parliament Analysis.ipynb was only used for the interim report, and only uses data from the 42nd parliament (2015-2019). This data was preprocessed in this file rather than using the Data_Preprocessing notebook.
+42nd_Parliament_Analysis.ipynb was only used for the interim report, and only uses data from the 42nd parliament (2015-2019). This data was preprocessed in this file rather than using the Data_Preprocessing notebook.
 
 All scripts were run on Google Colab in April 2023. A list of packages used and their versions can be found in package_versions.txt
